@@ -78,15 +78,16 @@ To run the application locally on your machine, follow these steps:
    ```
 
 4. Back-end (Spring Boot):
-   - Set up the PostgreSQL database with the necessary tables.
-   - Execute the `database_triggers.sql` file in the query tool of PostgreSQL after the tables are created in the database.
-   - Configure the database connection in the `application.properties` file in the `back-end` directory.
+   - Set up the PostgreSQL database.
+   - Configure the database connection in the `application.properties` file in the `back-end` directory to connect spring boot to postgresql.
    - Build and run the Spring Boot application:
      ```bash
      cd back-end
      ./mvnw spring-boot:run
      ```
-
+   -Spring boot will automatically create the tables.
+   - Execute the `database_triggers.sql` file in the query tool of PostgreSQL after the tables are created in the database.
+   
 ## Testing
 
 Testing is an integral part of the development process to ensure the application meets the requirements and is free of bugs. Different types of testing, including unit testing, integration testing, and system testing, are conducted throughout the development process.
