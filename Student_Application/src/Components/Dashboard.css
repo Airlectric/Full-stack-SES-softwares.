@@ -1,0 +1,245 @@
+
+.dashboard-container {
+  display: flex;
+  flex-direction:column;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.dashboard-container {
+  height: 100%;
+}
+
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  position:fixed;
+  background-color: #f2f2f2;
+  margin-top: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content{
+  margin-left: 300px;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 60px;
+  height: 100vh;
+}
+
+.student-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.student-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.student-bio {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.student-details {
+  width: 100%;
+}
+
+.student-details td {
+  padding: 5px 0;
+}
+
+.contentd {
+  flex: 1;
+  padding: 20px;
+  width: auto;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  height: 50px;
+  margin-right:50px;
+}
+
+.dropbtn {
+  background-color: #08267a;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.university-logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grades-table th,
+.grades-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.grades-table th {
+  background-color: #f2f2f2;
+}
+
+.grades-table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.assignments ul,
+.projects ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.assignments li,
+.projects li {
+  margin-bottom: 10px;
+}
+
+.assignment-title,
+.project-title {
+  font-weight: bold;
+}
+.timetable-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable-table th,
+.timetable-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.timetable-table th {
+  background-color: #f2f2f2;
+}
+
+.timetable-table td {
+  background-color: #fff;
+}
+
+.timetable-table td:first-child {
+  font-weight: bold;
+}
+
+.timetable-table tbody tr:nth-child(odd) td {
+  background-color: #f9f9f9;
+}
+
+.timetable-table tbody tr:hover td {
+  background-color: #f2f2f2;
+}
+
+
+
+.navigation-bar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navigation-bar a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.gpa-indicator {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.gpa-indicator span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.far {
+  background-color: #ff5050;
+  color: white;
+}
+
+.moderate {
+  background-color: #ff9900;
+  color: white;
+}
+
+.close {
+  background-color: #ffff66;
+  color: #333;
+}
+
+.perfect {
+  background-color: #66cc66;
+  color: white;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}

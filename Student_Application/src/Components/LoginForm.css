@@ -1,0 +1,84 @@
+
+
+.log {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.log:hover {
+  background-color: #f2f2f24d;
+}
+
+
+.log button {
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #051549;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.log button:hover {
+  background-color: #091b83a8;
+}
+
+
+.iform-group {
+  width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #4c7ce6;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.log form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log h2 {
+  margin-bottom: 20px;
+  color: #000e88;
+}
+
+.log .iform-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.log label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 25px;
+  color: #333;
+}
+
+.log input {
+  width: 450px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+

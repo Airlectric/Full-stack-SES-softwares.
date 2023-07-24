@@ -1,0 +1,377 @@
+/* Engineering School Homepage Styles */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.topbar {
+  background-color: #35495e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.head1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #35495e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #d35400;
+}
+
+/* Hero section styles */
+.hero-section {
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #35495e;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #35495e;
+}
+
+.hero-media {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-media video {
+  width: 100%;
+}
+
+/* About section styles */
+.about-section {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #35495e;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.infographic {
+  flex: 1;
+  text-align: center;
+}
+
+.infographic img {
+  max-width: 100%;
+}
+
+.about-text {
+  flex: 1;
+  padding: 0 50px;
+}
+
+.about-text p {
+  font-size: 18px;
+  color: #35495e;
+  line-height: 1.5;
+}
+
+/* Academics section styles */
+.academics-section {
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+
+.academics-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #35495e;
+  margin-bottom: 20px;
+}
+
+.program-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.program-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.program-card h3 {
+  font-size: 24px;
+  color: #35495e;
+  margin-bottom: 10px;
+}
+
+.program-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Testimonials section styles */
+.testimonials-section {
+  background-color: #35495e;
+  color: #fff;
+  padding: 50px;
+}
+
+.testimonials-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.testimonial-card {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card span {
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Student organizations section styles */
+.student-organizations-section {
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+
+.student-organizations-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #35495e;
+  margin-bottom: 20px;
+}
+
+.student-organizations-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-organizations-list li {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section styles */
+.contact-section {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #35495e;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  color: #35495e;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #35495e;
+  color: #fff;
+  padding: 50px;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.footer-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #d35400;
+}
+
+.latest-blog-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.latest-blog-posts li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.latest-blog-posts a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.latest-blog-posts a:hover {
+  color: #e67e22;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .hero-content,
+  .hero-media {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .program-list {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    flex-basis: 100%;
+  }
+
+  .student-organizations-list {
+    justify-content: center;
+  }
+
+  .footer-sections {
+    justify-content: center;
+  }
+}
+
+.butt{
+  background-color: #0c547e; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}

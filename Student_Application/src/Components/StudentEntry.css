@@ -1,0 +1,114 @@
+.student-info-entry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color:  #f2f2f2;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.itopbar {
+    flex: 0 0 60px;
+    background-color: #071a57bb;
+    color: #ffdd57; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; 
+  }
+
+  .logo {
+    width: 80px;
+    height: 45px;
+    margin-right: 20px;
+    
+  }
+  
+
+  .student-info-entry form {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+  }
+
+
+.form-section {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 250px;
+}
+
+.form-section h3 {
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.textarea-field {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #060c5a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #05195c91;
+}
+
+@media screen and (max-width: 600px) {
+  .student-info-entry {
+    padding: 10px;
+  }
+}

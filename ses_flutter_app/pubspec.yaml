@@ -1,0 +1,48 @@
+name: ses_application
+description: A new Flutter project
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.2 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  provider: ^6.0.1
+  intl: ^0.17.0
+  shared_preferences: ^2.0.10
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  assets:
+    - lib/assets/uglogo.png
+    - lib/assets/aircraft.jpg
+    - lib/assets/engSch.jpg
+    - lib/assets/dp.png
+    - lib/assets/new_ses.png
+    - lib/assets/computer.jpg
+    - lib/assets/medical.jpg
+    - lib/assets/food.jpg
+    - lib/assets/agric.jpg
+    - lib/assets/mat.jpeg
+
+
+ 
+  uses-material-design: true
+
+
